@@ -13,7 +13,8 @@ int main(){
     
     //lower bound
 
-    int*ans = lower_bound(a, a+n, key);
+    int*ans = lower_bound(a, a+n, key);         //return address of >= key
+
 
     int indx = ans-a;
     cout << "Key found at: " << indx << endl;
