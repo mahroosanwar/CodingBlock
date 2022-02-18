@@ -15,6 +15,7 @@ void ClearBit_Range(int &n, int i){
 void ClearBits_j_to_i(int &n,int j, int i){
     int ma = ~0;
     ma = ma << j;
+    //mb = 2^i-1
     int mb  = (1<<i) - 1;
     int mask = (ma | mb);
     n = n & mask;
