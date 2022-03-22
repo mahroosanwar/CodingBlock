@@ -42,7 +42,7 @@ void print(node*head){
         cout << temp->data << " ";
         temp = temp->next;
     }
-    // cout << temp->data;
+    cout << temp->data;
     return;
 }
 
