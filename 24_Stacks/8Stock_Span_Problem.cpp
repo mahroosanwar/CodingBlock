@@ -9,7 +9,7 @@ void stockSpan(int price[], int n, int span[]){
     s.push(0);
     span[0] = 1;
 
-    //loop for rest of the days
+    //loop for rest of the days  ->O(N) -> push and pop each element only once!
     for(int i=1; i<=n-1; i++){
         int currentPrice  = price[i];
 
