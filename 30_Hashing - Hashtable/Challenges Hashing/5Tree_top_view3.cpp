@@ -55,7 +55,7 @@ vector<int> topView(node* root) {
         return ans;
     }
 
-    map<int, int> m;        //root and line
+    map<int, int> m;        //line(horizontal distance from root) and data
     queue<pair<node*, int> >q;
 
     q.push({root, 0});
