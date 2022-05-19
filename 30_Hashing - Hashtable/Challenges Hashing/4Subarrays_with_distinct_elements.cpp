@@ -31,7 +31,6 @@ int sumoflength(int arr[], int n) {
 	return ans;
 }
 
-// Driven Code
 int main()
 {
     int n;
