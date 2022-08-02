@@ -27,3 +27,17 @@ int main()
     
     return 0;
 }
+
+// Input three numbers, print the largest of these numbers
+
+// Input Format
+// Three numbers (both positive and negative numbers are allowed)
+
+// Constraints
+// Output Format
+// the largest number
+
+// Sample Input
+// 5 7 4
+// Sample Output
+// 7
