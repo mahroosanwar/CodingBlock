@@ -43,6 +43,8 @@ int main(){
         cin >> a;
         Replaceallpi(a, 0);
     }
+    
+    return 0;
 }
 
 // Replace all occurrences of pi with 3.14
