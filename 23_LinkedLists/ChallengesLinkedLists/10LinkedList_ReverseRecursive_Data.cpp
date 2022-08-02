@@ -75,3 +75,21 @@ int main(){
 
     return 0;
 }
+
+
+// Reverse a linked list by changing the data of its nodes in a recursive manner
+
+// Input Format
+// N -> number of nodes N spaces separated numbers -> content of linked list
+
+// Constraints
+// None
+
+// Output Format
+// N space separated numbers -> content of reversed linked list
+
+// Sample Input
+// 5
+// 10 20 30 40 50
+// Sample Output
+// 50 40 30 20 10
