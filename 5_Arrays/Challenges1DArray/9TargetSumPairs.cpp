@@ -33,23 +33,27 @@ int main(){
   return 0;
 }
 
-// You are provided two sorted arrays. You need to find the maximum length of bitonic subsequence. You need to find the sum of the maximum sum path to reach from beginning of any array to end of any of the two arrays. You can switch from one array to another array only at common elements.
+// Take as input N, the size of array. Take N more inputs and store that in an array. Take as input “target”, a number. Write a function which prints all pairs of numbers which sum to target.
 
 // Input Format
-// First line contains integer t which is number of test case. For each test case, it contains two integers n and m which is the size of arrays and next two lines contains n and m space separated integers respectively.
+// The first line contains input N. Next N lines contains the elements of array and (N+1)th line contains target number.
 
 // Constraints
-// 1<=t<=100 1<=n,m<=100000
+// Length of the arrays should be between 1 and 1000.
 
 // Output Format
-// Print the maximum path.
+// Print all the pairs of numbers which sum to target. Print each pair in increasing order.
 
 // Sample Input
+// 5
 // 1
-// 8 8
-// 2 3 7 10 12 15 30 34
-// 1 5 7 8 10 15 16 19
+// 3
+// 4
+// 2
+// 5
+// 5
 // Sample Output
-// 122
+// 1 and 4
+// 2 and 3
 // Explanation
-// 122 is sum of 1, 5, 7, 8, 10, 12, 15, 30, 34
+// Find any pair of elements in the array which has sum equal to target element and print them.
