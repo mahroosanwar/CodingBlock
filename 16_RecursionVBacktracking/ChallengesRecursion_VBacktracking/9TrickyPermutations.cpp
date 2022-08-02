@@ -46,23 +46,22 @@ int main(){
     return 0;
 }
 
-// Take as input str, a string. Write a recursive function which returns all the words possible by rearranging the characters of this string which are in dictionary order smaller than the given string. The output strings must be lexicographically sorted.
+// Given a string containing duplicates, print all its distinct permutations such that there are no duplicate permutations and all permutations are printed in a lexicographic order.
 
 // Input Format
-// Single line input containing a string
+// The first and only line of the test case contains the input string.
 
 // Constraints
-// Length of string <= 25
+// Length of the string <= 8
 
 // Output Format
-// Display all the words which are in dictionary order smaller than the string entered in a new line each. The output strings must be sorted.
+// Print all the distinct permutations in a lexicographic order such that each permutation is in a new line. Note that there should not be any duplicate permutations.
 
 // Sample Input
-// cab
+// ABA
 // Sample Output
-// abc
-// acb
-// bac
-// bca
+// AAB
+// ABA
+// BAA
 // Explanation
-// The possible permutations of string "cab" are "abc" , "acb" ,"bac" , "bca" , "cab" and "cba" . Only four of them are lexicographically less than "cab". We print them in lexicographical order.
+// The possible permutations for the given string are { "AAB" , "AAB" , "ABA" , "BAA" } . We skip the repeating "AAB" permutation and only print it in once. Also we print the final output in lexicographical order.
