@@ -74,3 +74,26 @@ int main(){
     }
     return 0;
 }
+
+
+// Implement Merge Sort in a linked list using recursion
+
+// Input Format
+// Enter the size of the linked list N and take N more inputs
+
+// Constraints
+// The number of nodes in the list is in the range [0, 5 * 10^4]. -10^5 <= Node.val <= 10^5
+
+// Output Format
+// Display the elements of the sorted list in a space separated manner
+
+// Sample Input
+// 4
+// 9
+// 6
+// 3
+// 2
+// Sample Output
+// 2 3 6 9
+// Explanation
+// Now the list is sorted.
