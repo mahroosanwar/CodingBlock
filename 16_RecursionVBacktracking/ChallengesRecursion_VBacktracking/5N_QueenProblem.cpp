@@ -87,3 +87,23 @@ int main(){
     return 0;
 }
 
+// Take as input N, the size of a chess board. We are asked to place N number of queens in it, so that no queen can kill other.
+
+// a. Write a recursive function which returns the count of different distinct ways the queens can be placed across the board. Print the value returned.
+
+// b. Write a recursive function which prints all valid configurations (void is the return type for function).
+
+// Input Format
+// Enter the number N(Size of the chessboard)
+
+// Constraints
+// None
+
+// Output Format
+// Display the number of possible ways of arranging N queens and print all the possible arrangements in a space separated manner
+
+// Sample Input
+// 4
+// Sample Output
+// {1-2} {2-4} {3-1} {4-3}  {1-3} {2-1} {3-4} {4-2}
+// 2
