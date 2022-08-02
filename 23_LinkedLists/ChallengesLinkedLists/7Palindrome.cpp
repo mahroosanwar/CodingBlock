@@ -89,3 +89,19 @@ int main(){
     return 0;
 }
 
+// Check if a linked list is a palindrome.( Boolean return type )
+
+// Input Format
+// Add N space separated elements in the list
+
+// Constraints
+// None
+
+// Output Format
+// Boolean answer( true or false)
+
+// Sample Input
+// 5
+// 1 2 3 6 8
+// Sample Output
+// false
