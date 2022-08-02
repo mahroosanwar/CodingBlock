@@ -28,3 +28,30 @@ int main()
     }
     return 0;
 }
+
+// Given an integer N, print Pascal Triangle upto N rows. 
+
+//           1
+//         1   1
+//       1   2   1
+//     1   3   3   1
+//   1   4   6   4   1
+
+// Input Format
+// Single integer N.
+
+// Constraints
+// N <= 10
+
+// Output Format
+// Print pascal triangle.
+
+// Sample Input
+// 4
+// Sample Output
+//        1
+//      1   1
+//    1   2   1
+//  1   3   3   1
+// Explanation
+// Last row has one " "
