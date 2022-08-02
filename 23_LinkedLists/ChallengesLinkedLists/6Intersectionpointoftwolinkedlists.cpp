@@ -143,3 +143,31 @@ int main()
 
     return 0;
 }
+
+// Given two intersecting linked lists, write a function to find its point of intersection. If the lists do not intersect , return NULL.
+
+// Note : You are required to only write a single function. Do not modify / alter the remaining code.
+
+// This is a stub problem so you need not worry about taking input or displaying output. Only focus on the designated function.
+
+// Input Format
+// You are given a function which accepts head pointers of two linked lists.
+
+// Constraints
+// Your function should run in linear time.
+
+// Output Format
+// Return the intersection point node.
+
+// Sample Input
+// Consider these linked lists :
+// 1 -> 2 -> 3  -> null
+//    ↗
+// 4
+
+// (This is not the actual input that will be provided but rather a description of it)
+// Sample Output
+// The two linked lists 1->2->3->null and 4->2->3-> null intersect at node with data 2.
+// Return the node with data = 2.
+// Explanation
+// The two linked lists intersect at 2. Return their intersection point.
