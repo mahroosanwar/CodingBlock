@@ -108,3 +108,20 @@ int main(){
 
     return 0;
 }
+
+// Arrange elements in a Linked List such that all even numbers are placed after odd numbers.
+
+// Input Format
+// Enter N space separated Elements
+
+// Constraints
+// None
+
+// Output Format
+// Linked list with all the odd numbers before even numbers
+
+// Sample Input
+// 5
+// 1 2 2 2 1
+// Sample Output
+// 1 1 2 2 2
