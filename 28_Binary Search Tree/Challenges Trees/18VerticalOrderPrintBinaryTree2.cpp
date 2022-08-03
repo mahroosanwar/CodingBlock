@@ -83,5 +83,3 @@ int main(){
 // Explanation
 // Refer to the image.
 // We are to simply print the traversal of each vertical level from left to right , using pre order traversal. {4} {2} {1 5 6} {3 8} {7} {9}
-
-// Code Editor
