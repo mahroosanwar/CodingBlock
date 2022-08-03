@@ -74,3 +74,24 @@ int main() {
 
     return 0;
 }
+
+
+
+// Given a BST and an integer k, print the kth largest element in the BST without modifying the BST.
+
+// Can you do it in O(n) time ?
+
+// Input Format
+// First line contains the number of nodes. Next line contains n space separated integers denoting the elements of the BST. Insert them into the BST as given in order. Third line contains a single line integer k
+
+// Constraints
+// Output Format
+// Print the kth largest value in the BST
+
+// Sample Input
+// 6
+// 4 2 3 9 5 1
+// 3
+// Sample Output
+// 4
+// Explanation
