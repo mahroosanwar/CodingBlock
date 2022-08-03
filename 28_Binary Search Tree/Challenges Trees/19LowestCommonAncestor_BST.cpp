@@ -80,3 +80,27 @@ int main() {
     
     return 0;
 }
+
+
+
+// Find LCA of two elements in a BST.
+
+// Input Format
+// Enter the number of nodes N and add N more numbers to the BST, then add the two numbers whose LCA is to be found.
+
+// Constraints
+// None
+
+// Output Format
+// Display the LCA value.
+
+// Sample Input
+// 4
+// 5
+// 3
+// 2
+// 7
+// 7
+// 5
+// Sample Output
+// 5
