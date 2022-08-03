@@ -91,21 +91,21 @@ int main() {
 }
 
 
-Given a binary tree, remove all the leaves from the tree
+// Given a binary tree, remove all the leaves from the tree
 
-Input Format
-Enter the value of the nodes of the tree
+// Input Format
+// Enter the value of the nodes of the tree
 
-Constraints
-None
+// Constraints
+// None
 
-Output Format
-Display the tree in which all the leaves have been removed in pre-order traversal in the following format :
-Left->data => Root->data <= Right->Data
-Output END if left or right node is NULL
+// Output Format
+// Display the tree in which all the leaves have been removed in pre-order traversal in the following format :
+// Left->data => Root->data <= Right->Data
+// Output END if left or right node is NULL
 
-Sample Input
-50 true 12 true 18 false false false false
-Sample Output
-12 => 50 <= END
-END => 12 <= END
+// Sample Input
+// 50 true 12 true 18 false false false false
+// Sample Output
+// 12 => 50 <= END
+// END => 12 <= END
